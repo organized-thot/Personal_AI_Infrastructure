@@ -14,6 +14,7 @@ Before installing, ensure you have:
 2. **Claude Code** - Anthropic's CLI for Claude
    ```bash
    npm install -g @anthropic-ai/claude-code
+   npm install -g @musistudio/claude-code-router
    # or
    brew install claude-code
    ```

@@ -22,7 +22,7 @@ That's it. The script handles everything:
 - macOS or Linux
 - Internet connection
 
-Everything else (Bun, Git, Claude Code) is installed automatically.
+Everything else (Bun, Git, Claude Code, Claude Code Router) is installed automatically.
 
 ---
 
@@ -32,7 +32,7 @@ The installer runs 8 steps in dependency order:
 
 | # | Step | What It Does |
 |---|------|-------------|
-| 1 | **System Detection** | Detects OS, architecture, shell, installed tools (Bun, Git, Claude Code), timezone, and any existing PAI installation |
+| 1 | **System Detection** | Detects OS, architecture, shell, installed tools (Bun, Git, Claude Code, Claude Code Router), timezone, and any existing PAI installation |
 | 2 | **Prerequisites** | Installs missing tools: Git via Xcode CLT or package manager, Bun via official installer, Claude Code via npm |
 | 3 | **API Keys** | Auto-completes — key collection happens during the Voice step |
 | 4 | **Identity** | Prompts for your name, AI assistant name, timezone, and a personal catchphrase |

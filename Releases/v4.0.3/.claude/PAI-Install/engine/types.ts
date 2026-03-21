@@ -21,6 +21,7 @@ export interface DetectionResult {
     bun: { installed: boolean; version?: string; path?: string };
     git: { installed: boolean; version?: string; path?: string };
     claude: { installed: boolean; version?: string; path?: string };
+    ccr: { installed: boolean; version?: string; path?: string };
     node: { installed: boolean; version?: string; path?: string };
     brew: { installed: boolean; path?: string }; // macOS only
   };
