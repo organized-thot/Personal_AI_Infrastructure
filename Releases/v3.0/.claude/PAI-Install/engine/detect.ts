@@ -136,6 +136,7 @@ export function detectSystem(): DetectionResult {
       bun: detectTool("bun", "bun --version"),
       git: detectTool("git", "git --version"),
       claude: detectTool("claude", "claude --version 2>&1"),
+      ccr: detectTool("ccr", "ccr --version"),
       node: detectTool("node", "node --version"),
       brew: {
         installed: tryExec("which brew") !== null,

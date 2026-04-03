@@ -348,7 +348,7 @@ cp -r .claude ~/ && cd ~/.claude && bash install.sh
 ```
 
 **The installer will:**
-- Detect your system and install prerequisites (Bun, Git, Claude Code)
+- Detect your system and install prerequisites (Bun, Git, Claude Code, Claude Code Router)
 - Ask for your name, AI assistant name, timezone, and temperature unit preference
 - Clone/configure the PAI repository into `~/.claude/`
 - Set up voice features with ElevenLabs (optional)

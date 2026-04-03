@@ -139,6 +139,13 @@ else
   warn "Claude Code not found — will install during setup"
 fi
 
+# ─── Check Claude Code Router ────────────────────────────
+if command -v ccr &>/dev/null; then
+  success "Claude Code Router found"
+else
+  warn "Claude Code Router not found — will install during setup"
+fi
+
 # ─── Launch Installer ────────────────────────────────────
 # Resolve PAI-Install directory (may be sibling or child of script location)
 INSTALLER_DIR=""
